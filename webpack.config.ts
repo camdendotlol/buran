@@ -21,6 +21,10 @@ const config = {
             'babel-plugin-styled-components'
           ]
         }
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
       }
     ]
   },
